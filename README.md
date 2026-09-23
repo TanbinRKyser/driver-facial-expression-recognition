@@ -49,8 +49,6 @@ The final saved classification report contains 219 test images. Fear, happiness,
 `-- docs/images/                  # Curated, non-sensitive result figures
 ```
 
-Files with earlier experiments or alternative implementations are kept in the working project but are not part of the primary pipeline described above.
-
 ## Setup
 
 Python 3.10+ and a CUDA-capable PyTorch installation are recommended. The scripts also fall back to CPU, although training will be considerably slower.
@@ -70,7 +68,7 @@ The model backbones use pretrained ImageNet weights, so the first run may downlo
 
 The project uses the [Keimyung University Facial Expression of Drivers (KMU-FED)](https://cvpr.kmu.ac.kr/KMU-FED.htm) dataset. It contains near-infrared driver images from 12 subjects under varied illumination and partial occlusion.
 
-The dataset is copyrighted by the KMU CVPR Lab and its official page grants free download only for academic research. For that reason, dataset files are intentionally excluded from this repository. Download them from the official page and review its terms before use or redistribution.
+The dataset is copyrighted by the KMU CVPR Lab, and its official page grants free download only for academic research. For that reason, dataset files are intentionally excluded from this repository. Download them from the official page and review its terms before use or redistribution.
 
 Place the downloaded images as follows:
 
