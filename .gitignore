@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# KMU-FED data (copyrighted; academic-research use only)
+KMU-FED/
+KMU-FED_Cropped/
+dataset_cropped_split/
+
+# Original report contains a student ID and reproduced face images.
+# Add a sanitized public copy under docs/ if desired.
+/DFER_Report.pdf
+
+# Model checkpoints and packaged dependencies
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.whl
+
+# Generated experiment outputs (curated figures live in docs/images)
+results/
+/training_results*.png
+/confusion_matrix*.png
+/lr_finder_plot*.png
+/prediction_result*.png
+/Prediction_inf.png
+/explainability_result*.png
+/classification_report.txt
+
+# Local inference inputs; add only samples you own and may redistribute
+test_image_*.jpg
+test_image_*.jpeg
+test_image_*.png
+
+# Temporary files
+tmp/
