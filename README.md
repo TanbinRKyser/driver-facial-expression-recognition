@@ -31,8 +31,6 @@ The final saved classification report contains 219 test images. Fear, happiness,
 
 ![Training and validation loss](docs/images/training_history.png)
 
-The project's academic report was used as the source for this summary. The original PDF is not published here because it contains a student identifier and reproduced face images. A sanitized public copy can be added under `docs/` later.
-
 ## Repository layout
 
 ```text
