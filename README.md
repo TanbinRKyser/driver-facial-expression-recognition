@@ -158,6 +158,4 @@ Model checkpoints are intentionally excluded from Git because they are generated
 3. X. Liu et al., "EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention," CVPR, 2023.
 4. M. Jeong and B. C. Ko, "Driver's Facial Expression Recognition in Real-Time for Safe Driving," *Sensors*, 2018.
 
-## License
 
-No software license has been selected yet. Add a `LICENSE` file before inviting reuse. The KMU-FED dataset is governed separately by the terms on its official website and is not included here.
