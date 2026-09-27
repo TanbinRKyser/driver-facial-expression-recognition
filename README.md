@@ -15,6 +15,8 @@ The system predicts six expressions: **anger, disgust, fear, happiness, sadness,
 - Grad-CAM visualizations for both model branches
 - Reported test accuracy of **99.09%** on the project's cropped 80/20 split (217/219 images)
 
+## Architecture
+![Architecture](docs/images/diagram.png)
 ## Results
 
 | Configuration | Accuracy |
